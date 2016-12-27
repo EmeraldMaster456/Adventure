@@ -7,7 +7,7 @@ pickedupsword=false;
 //Current Room
 currentRoom="forest_openning";
 
-document.ready(function(){
+$(document).ready(function(){
   $("form").submit(function(){
     var input = $("#command_line").val();
     
