@@ -14,5 +14,7 @@ document.ready(function(){
     if (input == "help"){
       $("#message_help").clone().insertBefore("#placeholder").fadeIn(1500);
         }
+    $("#command_line").val("");
+    
   });
 });
